@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[
+/******************************************************************************/
+/* PROD PROGRAM:  ${TM_FILEPATH/(.*\/)(.*)/$1/g}production/${TM_FILENAME}
+/* WORK PROGRAM:  ${TM_FILEPATH/(.*\/)(.*)/$1/g}${TM_FILENAME}
+/* 
+/* PURPOSE:       ${1:write here}
+/*                ${2:tab for next line}
+/*                ${3}
+/* 
+/* SOURCE PRGM:   none
+/* INPUT:         ${4:dataset}
+/*                ${5}
+/*                ${6}
+/* OUTPUT:        ${7:${TM_FILENAME/(.*)[.](.*)/$1/g}.rtf}
+/*                ${8}
+/*                ${9}
+/*                ${10}
+/* 
+/* MACROS USED:   %${11:macro}
+/*                %${12}
+/* EXEMPTIONS:    none
+/* 
+/* AUTHOR:        Eunice (Ting-iu) Yeh
+/* CREATION DATE: ${13:ctrl+f5, ctrl+d}
+/* 
+/* NOTES:         none
+/* MODIFICATIONS: none
+/******************************************************************************/
+
+
+$0
+]]></content>
+  <tabTrigger>head</tabTrigger>
+  <scope>source.sas</scope>
+  <description>Program Header Block</description>
+</snippet>
+
